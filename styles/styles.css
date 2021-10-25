@@ -1,0 +1,87 @@
+.flexbox-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: black;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, -50%);
+}
+
+.flexbox-left {
+  width: 400px;
+  padding-top: 30px;
+  padding-left: 49px;
+  padding-right: 46px;
+  background-color: rgb(39, 15, 78);
+  height: 400px;
+}
+
+.flexbox-right {
+  vertical-align: top;
+  max-width: 100%;
+  position: absolute;
+  top: 8px;
+  left: 495px;
+  height: 400px;
+
+  /* width: 400px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 40px; */
+}
+
+img {
+  height: 430px;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+b {
+  color: rgb(245, 28, 245);
+}
+
+.header {
+  color: white;
+}
+
+.subtitle {
+  /* background-color: red; */
+  padding-right: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+.triple-flex {
+  align-self: center;
+  width: 500px;
+  flex-direction: row;
+  display: flex;
+  flex-grow: 1;
+  color: white;
+  padding: 40px;
+  /* background-color: black; */
+  margin-left: -60px;
+}
+
+h2 {
+  /* background-color: black; */
+  margin: 0;
+  padding: 0;
+}
+
+.value1 {
+  padding: 20px;
+}
+
+.value2 {
+  padding: 20px;
+}
+
+.value3 {
+  padding: 20px;
+}
